@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family:sans-serif;
+  
+  }
+  
+  .riot{
+    left: 35;
+    top: 35;
+  }
+  
+  .loginForm {
+    position:absolute;
+    width:600px;
+    height:720px;
+    padding: 30px, 20px;
+    background-color:#ffffff;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+  }
+  
+
+
+  .loginForm h1{
+    text-align: center;
+    margin: 60px;
+  }
+  
+  .idForm{
+    background-color: #ececec;
+    border-radius: 3px;
+    margin: 40px;
+    padding: 25px 25px;
+  }
+  
+  .passForm{
+    background-color: #ececec;
+    border-radius: 3px;
+    margin: 40px;
+    padding: 25px 35px;
+  }
+  
+  .id {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+  }
+  
+  .pw {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+ }
+
+.facebook{
+  position: relative;
+  bottom: 30;
+  left: 20;
+
+}
+.google{
+  position: relative;
+  bottom: 30;
+  left: 200;
+
+}
+
+.apple{
+  position: relative;
+  bottom: 30;
+  left: 380;
+}
+
+
+
+.box{
+  position: relative;
+  float: left;
+  top: 70;
+  left: 50;
+}
+
+
+.login{
+  position: relative;
+  width: 10px;
+  background-color: #ffffff;
+  border:1.9px solid #ececec;
+  padding:40px;
+  line-height: 5px;
+  border-radius:30px;
+  top: 120px;
+  left: 240px;
+  word-break: break-all;
+
+}
+
+.arrow{
+  font-size: 50px;
+  color: #ececec;
+  margin-left: -20px;
+
+}
+
+
+  
+.idForm:hover{
+    background-color: #ffffff
+
+}
+.idForm:hover{
+    border: 2px solid #000000;
+}
+
+.passForm:hover{
+    background-color: #ffffff
+}
+.passForm:hover{
+    border: 2px solid #000000;
+}
+
+.bottomText{
+  position: relative;
+  margin-top:25%;
+  
+}
+
+.b1:hover{
+  font-weight: bold;
+}
+
+.b2:hover{
+  font-weight: bold;
+}
+  
+
+
+
+
+.footer{
+  position: absolute;
+  color: #adadad;
+  font-size: 1px;
+  bottom: 20px;
+  left: 150;
+}
+
+.footer_1{
+  color: #636e72;
+}
+
+.footer :hover:not(.footer_1){
+  color: rgb(255, 255, 255);
+  font-weight: 2000;
+}
+
+
+.box{
+  font-size: 18px;
+}
+
+.lngselet{
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
